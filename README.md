@@ -39,16 +39,14 @@ Berfungsi sebagai pengendali utama LED Matrix sekaligus web server.
 Menyuplai daya untuk seluruh sistem.
 
 ## Skematik dan Koneksi
-* Skematik tersedia pada repository:
-  ```
-  ../Schematic/HUB75-to-ESP32.pdf
-  ```
+* Skematik tersedia pada (./Schematics/HUB75-to-ESP32.pdf)
 * Modul P5 menggunakan konektor **HUB75**
   Pastikan ESP32 dihubungkan ke **port input** (sebelah kiri, berlawanan arah panah pada modul).
 * Konfigurasi pin mengikuti library:
   **ESP32-HUB75-MatrixPanel-DMA**
 
 ### Pin Configuration
+(https://github.com/mrcodetastic/ESP32-HUB75-MatrixPanel-DMA?tab=readme-ov-file#2-wiring-the-esp32-to-an-led-matrix-panel)
 ```cpp
 #define R1_PIN 25
 #define G1_PIN 26
