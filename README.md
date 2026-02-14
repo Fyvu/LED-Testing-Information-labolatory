@@ -47,24 +47,21 @@ Menyuplai daya untuk seluruh sistem.
 
 ### Pin Configuration
 [Library ESP32-HUB75-MatrixPanel-DMA](https://github.com/mrcodetastic/ESP32-HUB75-MatrixPanel-DMA?tab=readme-ov-file#2-wiring-the-esp32-to-an-led-matrix-panel)
-```cpp
-#define R1_PIN 25
-#define G1_PIN 26
-#define B1_PIN 27
-#define R2_PIN 14
-#define G2_PIN 12
-#define B2_PIN 13
-
-#define A_PIN 23
-#define B_PIN 19
-#define C_PIN 5
-#define D_PIN 17
-#define E_PIN -1   // Digunakan untuk panel 1/32 scan (mis. 64x64), bisa menggunakan pin bebas
-
-#define LAT_PIN 4
-#define OE_PIN 15
-#define CLK_PIN 16
-```
+| HUB75 | ESP32 |
+|-------|-------|
+| R1    | 25    |
+| G1    | 26    |
+| B1    | 27    |
+| R2    | 14    |
+| G2    | 12    |
+| B2    | 13    |
+| A     | 23    |
+| B     | 19    |
+| C     | 5     |
+| D     | 17    |
+| LAT   | 4     |
+| OE    | 15    |
+| CLK   | 16    |
 
 ## Upload dan Update Program ke ESP32
 Digunakan untuk update firmware atau troubleshooting.
