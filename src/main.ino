@@ -7,8 +7,8 @@
 #include <Fonts/TomThumb.h>
 
 /* --- KONFIGURASI WIFI --- */
-const char* ssid = "Testing Information TTH";
-const char* password = "tthxsmktelkom_2";
+const char* ssid = "xxxx";
+const char* password = "xxxx";
 
 /* --- KONFIGURASI PANEL --- */
 #define PANEL_RES_X 64
