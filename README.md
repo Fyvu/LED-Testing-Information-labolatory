@@ -1,6 +1,6 @@
 # LED Testing Information Laboratory
 
-[![Demo]](https://youtube.com/shorts/dEFZr6_UuO4?feature=share)
+(https://youtube.com/shorts/dEFZr6_UuO4?feature=share)
 
 Proyek ini merupakan sistem **running text LED Matrix P5** berbasis **ESP32**, dilengkapi antarmuka web untuk mengatur teks, warna, kecerahan, dan kecepatan secara nirkabel (WiFi).
 
